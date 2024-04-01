@@ -10,3 +10,5 @@ serviceAccount:
   create: true
 ingress:
   enabled: true
+autoscaling:
+  enabled: true
