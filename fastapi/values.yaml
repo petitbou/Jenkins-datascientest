@@ -1,0 +1,8 @@
+service:
+  type: NodePort
+  port: 80
+image:
+  repository: fallewi/datascientestapi # replace this yourdocker_hub_id/datascientestapi
+  pullPolicy: IfNotPresent
+  # Overrides the image tag whose default is the chart appVersion.
+  tag: ""
