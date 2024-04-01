@@ -8,3 +8,5 @@ image:
   tag: ""
 serviceAccount:
   create: true
+ingress:
+  enabled: true
