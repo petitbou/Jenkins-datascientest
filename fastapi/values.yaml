@@ -5,7 +5,11 @@
 replicaCount: 1
 
 image:
+<<<<<<< HEAD
   repository: petitbou/Jenkins-datascientest
+=======
+  repository: petitbou/datascientestapi
+>>>>>>> ef1fc51bc183022dde792048e40d9d7520cc28f0
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
