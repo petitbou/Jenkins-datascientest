@@ -1,10 +1,6 @@
 pipeline {
 environment { // Declaration of environment variables
-<<<<<<< HEAD
-DOCKER_ID = "fallewi" // replace this with your docker-id
-=======
 DOCKER_ID = "petitbou" // replace this with your docker-id
->>>>>>> ef1fc51bc183022dde792048e40d9d7520cc28f0
 DOCKER_IMAGE = "datascientestapi"
 DOCKER_TAG = "v.${BUILD_ID}.0" // we will tag our images with the current build in order to increment the value by 1 with each new build
 }
@@ -132,7 +128,3 @@ stage('Deploiement en staging'){
 
 }
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> ef1fc51bc183022dde792048e40d9d7520cc28f0
